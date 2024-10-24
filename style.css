@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 20px;
+}
+
+.tarjeta {
+    width: 300px; /* Establece el ancho del elemento en 300 píxeles */
+    margin: 10px; /* Añade un margen de 10 píxeles en todos los lados */
+    border: 1px solid #000000;  /* Crea un borde sólido de 1 píxel de grosor y color negro */
+    padding: 20px; /* Añade un espacio interior de 20 píxeles alrededor del contenido */
+    border-radius: 5px; /* Redondea las esquinas del elemento con un radio de 5 píxeles */
+    box-shadow: 0 2px 5px rgba(243, 106, 106, 0.1); /* Aplica una sombra sutil con desplazamiento y difuminado */
+}
+.tarjeta img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor padre */
+    height: auto; /* Mantiene la relación de aspecto de la imagen al ajustar su altura automáticamente */
+    display: block;  /* Cambia el comportamiento de la imagen a bloque para evitar espacios en línea */
+    border-radius: 5px 5px 0 0; /* Redondea las esquinas superiores de la imagen con un radio de 5 píxeles */
+}
+.tarjeta h3 {
+    margin-top: 10px; /* Establece un margen superior de 10 píxeles para separar el encabezado del contenido anterior */
+}
+
+.tarjeta p {
+    font-size: 0.9em; /* Establece el tamaño de la fuente en 0.9 veces el tamaño de fuente del elemento padre */
+    line-height: 1.5; /* Define la altura de línea como 1.5 veces el tamaño de la fuente, mejorando la legibilidad */
+   
+
+    }
